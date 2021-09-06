@@ -39,9 +39,11 @@ function App() {
           <input min='0' value={int} onChange={handleChange} type='number'></input>
           <button style={{cursor: 'pointer'}} type='submit'>Submit</button>
         </form>
-        <div>
-          {text && <h1>{text}</h1>}
-        </div>
+        {text 
+        && 
+          <div className='text-container'>
+            <h1>{text}</h1>
+          </div>}
       </div>
     </div>
   );
