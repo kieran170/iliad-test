@@ -1,0 +1,17 @@
+.page-container {
+  background-color: #D8DBE2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 40%;
+  height: fit-content;
+  background-color: #36393B;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
