@@ -26,7 +26,7 @@ function App() {
       setText('Buzz!');
     } else if (int % 7 === 0) {
       setText('Bosh!');
-    }else {
+    } else {
       setText('None!');
     }
   };
